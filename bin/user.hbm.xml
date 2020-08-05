@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM 
+"hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="mypack.User" table="user">
+
+<id name="uid" column="uid">
+<generator class="increment"></generator>
+</id>
+
+<property name="uname"></property>
+<property name="uemail"></property>
+
+</class>
+</hibernate-mapping>
